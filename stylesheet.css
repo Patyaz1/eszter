@@ -1120,136 +1120,136 @@ audio {
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
-	-webkit-transform: rotate(30deg);
+	-webkit-transform: rotate(25deg);
 	-moz-animation: balloons_rotate_one linear 10s infinite;
-	-moz-transform: rotate(30deg);
+	-moz-transform: rotate(25deg);
 	-o-animation: balloons_rotate_one linear 10s infinite;
-	-o-transform: rotate(30deg);
+	-o-transform: rotate(25deg);
 	-ms-animation: balloons_rotate_one linear 10s infinite;
-	-ms-transform: rotate(30deg);
+	-ms-transform: rotate(25deg);
 	animation: balloons_rotate_one linear 10s infinite;
-	transform: rotate(30deg);
+	transform: rotate(25deg);
 }
 @-webkit-keyframes balloons_rotate_one {
 	0% {
-		-webkit-transform: rotate(30deg);
+		-webkit-transform: rotate(25deg);
 	}
 	50% {
-		-webkit-transform: rotate(-30deg);
+		-webkit-transform: rotate(-25deg);
 	}
 	100% {
-		-webkit-transform: rotate(30deg);
+		-webkit-transform: rotate(25deg);
 	}
 }
 @-moz-keyframes balloons_rotate_one {
 	0% {
-		-moz-transform: rotate(30deg);
+		-moz-transform: rotate(25deg);
 	}
 	50% {
-		-moz-transform: rotate(-30deg);
+		-moz-transform: rotate(-25deg);
 	}
 	100% {
-		-moz-transform: rotate(30deg);
+		-moz-transform: rotate(25deg);
 	}
 }
 @-o-keyframes balloons_rotate_one {
 	0% {
-		-o-transform: rotate(30deg);
+		-o-transform: rotate(25deg);
 	}
 	50% {
-		-o-transform: rotate(-30deg);
+		-o-transform: rotate(-25deg);
 	}
 	100% {
-		-o-transform: rotate(30deg);
+		-o-transform: rotate(25deg);
 	}
 }
 @-ms-keyframes balloons_rotate_one {
 	0% {
-		-ms-transform: rotate(30deg);
+		-ms-transform: rotate(25deg);
 	}
 	50% {
-		-ms-transform: rotate(-30deg);
+		-ms-transform: rotate(-25deg);
 	}
 	100% {
-		-ms-transform: rotate(30deg);
+		-ms-transform: rotate(25deg);
 	}
 }
 @keyframes balloons_rotate_one {
 	0% {
-		transform: rotate(30deg);
+		transform: rotate(25deg);
 	}
 	50% {
-		transform: rotate(-30deg);
+		transform: rotate(-25deg);
 	}
 	100% {
-		transform: rotate(30deg);
+		transform: rotate(25deg);
 	}
 }
 .balloons-rotate-behaviour-two {
 	-webkit-animation: balloons_rotate_two linear 10s infinite;
-	-webkit-transform: rotate(-20deg);
+	-webkit-transform: rotate(-15deg);
 	-moz-animation: balloons_rotate_two linear 10s infinite;
-	-moz-transform: rotate(-20deg);
+	-moz-transform: rotate(-15deg);
 	-o-animation: balloons_rotate_two linear 10s infinite;
-	-o-transform: rotate(-20deg);
+	-o-transform: rotate(-15deg);
 	-ms-animation: balloons_rotate_two linear 10s infinite;
-	-ms-transform: rotate(-20deg);
+	-ms-transform: rotate(-15deg);
 	animation: balloons_rotate_two linear 10s infinite;
-	transform: rotate(-20deg);
+	transform: rotate(-15deg);
 }
 @-webkit-keyframes balloons_rotate_two {
 	0% {
-		-webkit-transform: rotate(-20deg);
+		-webkit-transform: rotate(-15deg);
 	}
 	50% {
-		-webkit-transform: rotate(20deg);
+		-webkit-transform: rotate(15deg);
 	}
 	100% {
-		-webkit-transform: rotate(-20deg);
+		-webkit-transform: rotate(-15deg);
 	}
 }
 @-moz-keyframes balloons_rotate_two {
 	0% {
-		-moz-transform: rotate(-20deg);
+		-moz-transform: rotate(-15deg);
 	}
 	50% {
-		-moz-transform: rotate(20deg);
+		-moz-transform: rotate(15deg);
 	}
 	100% {
-		-moz-transform: rotate(-20deg);
+		-moz-transform: rotate(-15deg);
 	}
 }
 @-o-keyframes balloons_rotate_two {
 	0% {
-		-o-transform: rotate(-20deg);
+		-o-transform: rotate(-15deg);
 	}
 	50% {
-		-o-transform: rotate(20deg);
+		-o-transform: rotate(15deg);
 	}
 	100% {
-		-o-transform: rotate(-20deg);
+		-o-transform: rotate(-15deg);
 	}
 }
 @-ms-keyframes balloons_rotate_two {
 	0% {
-		-ms-transform: rotate(-20deg);
+		-ms-transform: rotate(-15deg);
 	}
 	50% {
-		-ms-transform: rotate(20deg);
+		-ms-transform: rotate(15deg);
 	}
 	100% {
-		-ms-transform: rotate(-20deg);
+		-ms-transform: rotate(-15deg);
 	}
 }
 @keyframes balloons_rotate_two {
 	0% {
-		transform: rotate(-20deg);
+		transform: rotate(-15deg);
 	}
 	50% {
-		transform: rotate(20deg);
+		transform: rotate(15deg);
 	}
 	100% {
-		transform: rotate(-20deg);
+		transform: rotate(-15deg);
 	}
 }
 
@@ -1278,7 +1278,7 @@ audio {
 .message p {
 	font-family: 'Signika', sans-serif;
 	font-size: 30px;
-	text-transform: none;
+	text-transform: none   ;
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
