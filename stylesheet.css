@@ -1080,8 +1080,6 @@ audio {
 .balloons {
 	position: fixed;
 	bottom: -200px;
-	display: flex;
-	justify-content: center;
 	opacity: 0.6;
 	z-index: 99;
 	width: 100px;
@@ -1089,6 +1087,8 @@ audio {
 	background-repeat: no-repeat no-repeat;
 	background-size: 100px 183px;
 }
+
+
 .balloons h2 {
 	text-transform: uppercase;
 	font-family: 'Signika', sans-serif;
@@ -1118,6 +1118,7 @@ audio {
 #b7,#b77{
 	background-image: url('b7.png');
 }
+
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
 	-webkit-transform: rotate(25deg);
@@ -1253,6 +1254,7 @@ audio {
 	}
 }
 
+
 .balloon-border{
 	position: fixed;
 	top:100%;
@@ -1315,4 +1317,190 @@ p{
     	p {
     		margin-top: 60px;
     	}
+
+		#b1,#b11 {
+			background-image: url('ujb1.png');
+			left: 0px !important;
+		}
+		#b2,#b22 {
+			background-image: url('ujb2.png');
+			left: 65px !important;
+		}
+		#b3,#b33 {
+			background-image: url('ujb3.png');
+			left: 130px !important;
+		}
+		#b4,#b44{
+			background-image: url('ujb4.png');
+			left: 195px !important;
+		}
+		#b5,#b55{
+			background-image: url('ujb5.png');
+			left: 260px !important;
+		}
+		#b6,#b66{
+			background-image: url('ujb6.png');
+			left: 325px !important;
+		}
+		#b7,#b77{
+			background-image: url('ujb7.png');
+			left: 355px !important;
+		}
+
+		.balloons {
+			position: fixed;
+			bottom: -200px;
+			opacity: 0.6;
+			z-index: 99;
+			width: 19%;
+			height: auto;
+			background-repeat: no-repeat no-repeat;
+			background-size: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.balloons h2 {
+			text-transform: uppercase;
+			font-family: 'Signika', sans-serif;
+			font-size: 35px;
+			color: #BF4136;
+			text-shadow: 5px 5px 5px #FFF;
+			display: none;
+		}
+
+		.balloons-rotate-behaviour-one {
+			-webkit-animation: balloons_rotate_one linear 7s infinite;
+			-webkit-transform: rotate(5deg);
+			-moz-animation: balloons_rotate_one linear 7s infinite;
+			-moz-transform: rotate(5deg);
+			-o-animation: balloons_rotate_one linear 7s infinite;
+			-o-transform: rotate(5deg);
+			-ms-animation: balloons_rotate_one linear 7s infinite;
+			-ms-transform: rotate(5deg);
+			animation: balloons_rotate_one linear 7s infinite;
+			transform: rotate(5deg);
+		}
+		@-webkit-keyframes balloons_rotate_one {
+			0% {
+				-webkit-transform: rotate(5deg);
+			}
+			50% {
+				-webkit-transform: rotate(-5deg);
+			}
+			100% {
+				-webkit-transform: rotate(5deg);
+			}
+		}
+		@-moz-keyframes balloons_rotate_one {
+			0% {
+				-moz-transform: rotate(5deg);
+			}
+			50% {
+				-moz-transform: rotate(-5deg);
+			}
+			100% {
+				-moz-transform: rotate(5deg);
+			}
+		}
+		@-o-keyframes balloons_rotate_one {
+			0% {
+				-o-transform: rotate(5deg);
+			}
+			50% {
+				-o-transform: rotate(-5deg);
+			}
+			100% {
+				-o-transform: rotate(5deg);
+			}
+		}
+		@-ms-keyframes balloons_rotate_one {
+			0% {
+				-ms-transform: rotate(5deg);
+			}
+			50% {
+				-ms-transform: rotate(-5deg);
+			}
+			100% {
+				-ms-transform: rotate(5deg);
+			}
+		}
+		@keyframes balloons_rotate_one {
+			0% {
+				transform: rotate(5deg);
+			}
+			50% {
+				transform: rotate(-5deg);
+			}
+			100% {
+				transform: rotate(5deg);
+			}
+		}
+		.balloons-rotate-behaviour-two {
+			-webkit-animation: balloons_rotate_two linear 4s infinite;
+			-webkit-transform: rotate(-4deg);
+			-moz-animation: balloons_rotate_two linear 4s infinite;
+			-moz-transform: rotate(-4deg);
+			-o-animation: balloons_rotate_two linear 4s infinite;
+			-o-transform: rotate(-4deg);
+			-ms-animation: balloons_rotate_two linear 4s infinite;
+			-ms-transform: rotate(-4deg);
+			animation: balloons_rotate_two linear 4s infinite;
+			transform: rotate(-4deg);
+		}
+		@-webkit-keyframes balloons_rotate_two {
+			0% {
+				-webkit-transform: rotate(-4deg);
+			}
+			50% {
+				-webkit-transform: rotate(4deg);
+			}
+			100% {
+				-webkit-transform: rotate(-4deg);
+			}
+		}
+		@-moz-keyframes balloons_rotate_two {
+			0% {
+				-moz-transform: rotate(-4deg);
+			}
+			50% {
+				-moz-transform: rotate(4deg);
+			}
+			100% {
+				-moz-transform: rotate(-4deg);
+			}
+		}
+		@-o-keyframes balloons_rotate_two {
+			0% {
+				-o-transform: rotate(-4deg);
+			}
+			50% {
+				-o-transform: rotate(4deg);
+			}
+			100% {
+				-o-transform: rotate(-4deg);
+			}
+		}
+		@-ms-keyframes balloons_rotate_two {
+			0% {
+				-ms-transform: rotate(-4deg);
+			}
+			50% {
+				-ms-transform: rotate(4deg);
+			}
+			100% {
+				-ms-transform: rotate(-4deg);
+			}
+		}
+		@keyframes balloons_rotate_two {
+			0% {
+				transform: rotate(-4deg);
+			}
+			50% {
+				transform: rotate(4deg);
+			}
+			100% {
+				transform: rotate(-4deg);
+			}
+		}
     }
