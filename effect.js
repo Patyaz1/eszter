@@ -176,21 +176,20 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(1500).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(7000);
-			if(i==4){
+			if (i == 4) {
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.utolso').fadeIn('fast');
+					
+					setTimeout(function() {
+						$('.cake').fadeIn('fast');
+					}, 1200); 
 				});
-				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					$('.cake').fadeIn('fast');
-				});
-				
 			}
 			else{
 				msgLoop(i);
 			}			
 
 		});
-			// body...
 		}
 		
 		msgLoop(0);

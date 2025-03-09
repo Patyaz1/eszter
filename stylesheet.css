@@ -1080,6 +1080,8 @@ audio {
 .balloons {
 	position: fixed;
 	bottom: -200px;
+	display: flex;
+	justify-content: center;
 	opacity: 0.6;
 	z-index: 99;
 	width: 100px;
@@ -1281,6 +1283,10 @@ audio {
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
 	font-weight: bold;
+}
+
+p{
+	margin-top: 30px;
 }
 
 .btn-primary {
