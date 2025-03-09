@@ -180,9 +180,11 @@ $('document').ready(function(){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.utolso').fadeIn('fast');
 					
-					setTimeout(function() {
+					if ($(window).width() >= 768) {
+						setTimeout(function() {
 						$('.cake').fadeIn('fast');
-					}, 1200); 
+					}, 1200);
+					} 
 				});
 			}
 			else{
@@ -190,6 +192,7 @@ $('document').ready(function(){
 			}			
 
 		});
+			// body...
 		}
 		
 		msgLoop(0);

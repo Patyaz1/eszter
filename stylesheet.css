@@ -1310,9 +1310,9 @@ p{
 
 
 
-    /*controlling tablet width
-    /*@media only screen and (max-width: 720px){
-    	.container {
-    		-webkit-transform: scale(0.9);
+
+    @media only screen and (max-width: 720px){
+    	p {
+    		margin-top: 60px;
     	}
-    }*/
+    }
